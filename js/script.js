@@ -1,5 +1,6 @@
 const navbar = document.querySelector(".navbar");
 const activeSticky = document.querySelector(".active-sticky");
+const navHeight = navbar.getBoundingClientRect().height;
 
 const sticky = function (entries) {
   const [entry] = entries;
@@ -11,7 +12,7 @@ const sticky = function (entries) {
 const stickyNavObserver = new IntersectionObserver(sticky, {
   root: null,
   threshold: 1,
-  rootMargin: "-70px",
+  rootMargin: `-${navHeight}px`,
 });
 
 stickyNavObserver.observe(activeSticky);
