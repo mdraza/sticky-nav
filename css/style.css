@@ -1,0 +1,60 @@
+.navbar a {
+  color: #333 !important;
+}
+.navbar .navbar-nav .nav-link {
+  color: #333;
+}
+.bg-nav {
+  background-color: #fff !important;
+}
+.navbar {
+  transition: all 0.5s ease;
+}
+
+.navbar.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: all 0.5s ease;
+  box-shadow: 0px 1px 5px #3333335f;
+}
+
+.section {
+  margin: 70px 0;
+}
+.section h1 {
+  margin-bottom: 70px;
+}
+.section .text-sec {
+  padding-top: 65px;
+}
+.section .img-sec img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.secanim {
+  margin: 100px 0;
+  transition: 0.5s;
+}
+
+.secanim.show {
+  opacity: 1;
+}
+
+.secanim2 {
+  margin: 100px 0;
+  transition: 0.5s;
+}
+
+.secanim2.show {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.bg-success {
+  background-color: #7a9f11 !important;
+}
+
+/*# sourceMappingURL=interect.css.map */
